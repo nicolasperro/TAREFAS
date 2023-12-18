@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TAREFAS.COM</title>
+</head>
+<body>
+
+<div class="container">
+    <h1>TAREFAS.COM</h1>
+    <div id="task-form">
+        <input type="text" id="task-name" placeholder="Nome da Tarefa">
+        <input type="date" id="task-date">
+        <textarea id="task-description" placeholder="Descrição da Tarefa"></textarea>
+        <label for="task-color">Cor: </label>
+        <input type="color" id="task-color" value="#ffffff">
+        <button onclick="addTask()">Adicionar Tarefa</button>
+    </div>
+    <ul id="task-list"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
